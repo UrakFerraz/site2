@@ -1,0 +1,170 @@
+/*media queries#########################################*/
+@media screen and (max-width: 1400px) and (min-width: 951px) {
+		.tecBlocksWrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
+
+
+@media screen and (max-width: 950px) and (min-width: 600px) {
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+
+
+	/*hamburger menu In*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+		.tecBlocksWrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.tecWrapper {
+		padding: 100px 20px;
+	}
+
+	.tecBlocksWrapper {
+	grid-column-gap: 40px;
+	}
+
+	.tecBlock {
+		margin: 30px auto;
+		padding: 15px;
+	}
+
+}
+
+
+@media screen and (max-width: 599px) and (min-width: 400px) {
+
+
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+	.tecWrapper {
+		padding: 100px 20px;
+	}
+
+	.tecBlocksWrapper {
+	grid-column-gap: 40px;
+	}
+
+	.tecBlock {
+		margin: 30px auto;
+		padding: 15px;
+	}
+
+	.tecTitle {
+		font-size: 30px;
+	}
+
+
+	/*footer*/
+/*    .footer-container{display:grid;grid-template-columns:0.2fr 4fr 1fr 0.2fr;grid-template-rows:40px 200px 40px}
+    .footer-face-icon{width:60px;height:60px}
+    .footer-linkedin-icon{width:60px;height:60px}*/
+
+
+
+
+    /*hamburger menu In*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+	.tecBlocksWrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.tecWrapper {
+		padding: 100px 20px;
+	}
+
+	.tecBlocksWrapper {
+	grid-column-gap: 40px;
+	}
+
+	.tecBlock {
+		margin: 30px auto;
+		padding: 30px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 399px) and (min-width: 320px) {
+
+
+
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+	.tecBlocksWrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.tecWrapper {
+		padding: 100px 20px;
+	}
+
+	.tecBlocksWrapper {
+	grid-column-gap: 40px;
+	}
+
+	.tecBlock {
+		margin: 30px auto;
+		padding: 15px;
+	}
+
+
+	/*footer*/
+	.footer-left-icons1 h3{font-size:14px}
+	.footer-left-icons2 h3{font-size:14px; line-height: 1.4}
+	.footer-container p{font-size:12px}
+	.fotter-left-side p{font-size:12px}
+
+
+
+
+	/*hamburger menu*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+
+	.tecTitle {
+		font-size: 30px;
+	}
+
+}

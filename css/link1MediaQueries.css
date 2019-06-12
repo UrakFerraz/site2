@@ -1,0 +1,174 @@
+/*media queries#########################################*/
+@media screen and (max-width: 1400px) and (min-width: 951px) {
+
+}
+
+
+
+@media screen and (max-width: 950px) and (min-width: 600px) {
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+
+
+	/*hamburger menu In*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+
+
+	/*section 2 bem vindo*/
+	.section2Wrapper {
+		padding: 120px 50px;
+	}
+
+	.section2Title {
+		font-size: 70px;
+		margin-bottom: 30px;
+	}
+
+	.logos3Wrapper {
+		transform-origin:0% 0%;
+		transform: scale(0.7) translateX(-50%);
+		left: 50%;
+	}
+
+	.logos3TotalContainer {
+	margin-bottom: 380px;
+	}
+
+
+
+
+}
+
+
+@media screen and (max-width: 599px) and (min-width: 400px) {
+
+
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+
+
+
+	/*footer*/
+/*    .footer-container{display:grid;grid-template-columns:0.2fr 4fr 1fr 0.2fr;grid-template-rows:40px 200px 40px}
+    .footer-face-icon{width:60px;height:60px}
+    .footer-linkedin-icon{width:60px;height:60px}*/
+
+
+
+
+    /*hamburger menu In*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+
+	/*section 2 bem vindo*/
+	.section2Wrapper {
+		padding: 120px 50px;
+	}
+
+	.section2Title {
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+
+
+	.logos3TotalContainer {
+	margin-bottom: 270px;
+	}
+
+	.logos3Wrapper {
+	transform: scale(0.5) translateX(-50%);
+	left: 50%;
+	transform-origin:0% 0%;
+	}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 399px) and (min-width: 320px) {
+
+
+
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+
+
+
+	/*footer*/
+	.footer-left-icons1 h3{font-size:14px}
+	.footer-left-icons2 h3{font-size:14px; line-height: 1.4}
+	.footer-container p{font-size:12px}
+	.fotter-left-side p{font-size:12px}
+
+
+
+
+	/*hamburger menu*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+
+
+
+	/*section 2 bem vindo*/
+	.section2Wrapper {
+		padding: 120px 50px;
+	}
+
+	.section2Title {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+
+
+	.logos3TotalContainer {
+	margin-bottom: 270px;
+	}
+
+	.logos3Wrapper {
+	transform: scale(0.45) translateX(-50%);
+	left: 50%;
+	transform-origin:0% 0%;
+	}
+
+
+}

@@ -1,0 +1,328 @@
+/*media queries#########################################*/
+@media screen and (max-width: 1400px) and (min-width: 951px) {
+	.herovideo amp-vimeo {
+		width: 190vw;
+	}
+
+	#videoDiv {
+		width: 190vw;
+	}
+}
+
+
+
+@media screen and (max-width: 950px) and (min-width: 600px) {
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+
+
+.herovideo amp-vimeo {
+	width: 250vw;
+}
+
+
+	#videoDiv {
+		width: 250vw;
+	}
+
+	/*section1*/
+	.section1Wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+	}
+
+
+
+	.iconLogo1 {
+		width: 20vw;
+		margin: 30px auto 0 auto;
+	}
+
+
+
+
+	.leadText {
+		font-size: 18px;
+		padding: 50px;
+	}
+
+
+
+
+	/*section links blocks*/
+	.linksWrapper {
+		background-image: url();
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto;
+	}
+
+
+
+
+	.linksBlocks {
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
+	.linkBlock1:before, .linkBlock2:before, .linkBlock3:before, .linkBlock4:before, .linkBlock5:before, .linkBlock6:before, .linkBlock7:before, .linkBlock8:before, .linkBlock9:before {
+		display: none;
+	}
+
+
+
+	/*hamburger menu In*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 599px) and (min-width: 400px) {
+
+
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+
+
+	/*section1*/
+	.section1Wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+	}
+
+
+
+	.iconLogo1 {
+		width: 40vw;
+		margin: 30px auto 0 auto;
+	}
+
+
+
+
+	.leadText {
+		font-size: 18px;
+		padding: 50px;
+	}
+
+
+
+		/*section links blocks*/
+	.linksWrapper {
+		background-image: url();
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto;
+	}
+
+
+
+	.linksBlocks {
+		width: 100%;
+		height: 100%;
+	}
+	
+
+
+
+	.linkBlock1:before, .linkBlock2:before, .linkBlock3:before, .linkBlock4:before, .linkBlock5:before, .linkBlock6:before, .linkBlock7:before, .linkBlock8:before, .linkBlock9:before {
+	display: none;
+}
+
+
+
+	/*footer*/
+    .footer-container{display:grid;grid-template-columns:0.2fr 4fr 1fr 0.2fr;grid-template-rows:40px 200px 40px}
+    .footer-face-icon{width:60px;height:60px}
+    .footer-linkedin-icon{width:60px;height:60px}
+
+
+
+
+    /*hamburger menu In*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+.herovideo amp-vimeo {
+	width: 450vw;
+	height: 100vh;
+}
+
+	#videoDiv {
+	width: 450vw;
+	height: 100vh;
+	}
+
+
+.heroVideoText {
+	font-size: 55px;
+}
+
+.playSvg {
+	width: 40px;
+	height: 40px;
+}
+
+.videoTitle {
+	font-size: 16px;
+}
+
+
+.playBtn, .playBtn1, .playBtn2 {
+	padding: 6px;
+	margin: 10px;
+}
+}
+
+
+
+@media screen and (max-width: 399px) and (min-width: 320px) {
+
+
+
+
+	/*menu header desabilita*/
+	.headerMenuWrapper {
+		display: none;
+	}
+
+
+
+
+		/*section1*/
+	.section1Wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+	}
+
+
+
+
+	.iconLogo1 {
+		width: 40vw;
+		margin: 30px auto 0 auto;
+	}
+
+
+
+
+	.leadText {
+		font-size: 18px;
+		padding: 50px;
+	}
+
+
+
+
+/*links blocks*/
+
+
+
+	/*section links blocks*/
+	.linksWrapper {
+		background-image: url();
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto;
+	}
+
+
+
+	.linksBlocks {
+		width: 100%;
+		height: calc(33vh - 23.66666px);
+	}
+
+
+	
+	.linkBlock1:before, .linkBlock2:before, .linkBlock3:before, .linkBlock4:before, .linkBlock5:before, .linkBlock6:before, .linkBlock7:before, .linkBlock8:before, .linkBlock9:before {
+		display: none;
+}
+
+
+
+	/*footer*/
+	.footer-left-icons1 h3{font-size:14px}
+	.footer-left-icons2 h3{font-size:14px; line-height: 1.4}
+	.footer-container p{font-size:12px}
+	.fotter-left-side p{font-size:12px}
+
+
+
+
+	/*hamburger menu*/
+	.hamburgerMenuWrapperIn {
+		display: block;
+	}
+
+
+
+
+	.hamburgerMenuBtnIn {
+		display: block;
+	}
+
+
+.herovideo amp-vimeo {
+	width: 450vw;
+	height: 100vh;
+}
+
+
+
+.heroVideoText {
+	font-size: 47px;
+}
+
+
+.playSvg {
+	width: 40px;
+	height: 40px;
+}
+
+
+.videoTitle {
+	font-size: 16px;
+}
+
+
+.playBtn, .playBtn1, .playBtn2 {
+	padding: 6px;
+	margin: 10px;
+}
+
+}
